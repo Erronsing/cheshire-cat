@@ -6,7 +6,9 @@
                  [org.clojure/clojurescript "1.9.521"]
                  [compojure "1.5.1"]
                  [ring/ring-defaults "0.2.1"]
-                 [ring/ring-json "0.4.0"]]
+                 [ring/ring-json "0.4.0"]
+                 [cljs-http "0.1.43"]
+                 [org.clojure/core.async "0.3.442"]]
   :plugins [[lein-ring "0.9.7"]
             [lein-cljsbuild "1.1.6"]]
   :ring {:handler cheshire-cat.handler/app}
